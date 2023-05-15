@@ -1,0 +1,42 @@
+#root, html , body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('./Images/Sky2.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  flex-direction: column;
+  box-shadow: 10px 8px;
+  border-radius: 25px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width:28%;
+  border-radius: 14%;
+  border-color: cornflowerblue;
+  background-color: aliceblue;
+  padding: 1%;
+}
